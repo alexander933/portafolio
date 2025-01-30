@@ -10,154 +10,135 @@
 </head>
 <body class="background-image">
     <div class="container my-5">
-        <header class="text-center mb-4">
-            <h1 class="fw-bold">Portafolio Personal</h1>
+        <header>
+        
+            <nav class="navbar navbar-expand-lg bg-info">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                     <img src="Logo.png" alt="Logo" height="90">
+
+
+                    </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                      <a class="nav-link" href="#habilidades">Habilidades</a>
+                      <a class="nav-link" href="#experiencia">Experiencia</a>
+                      <a class="nav-link" href="#servicios">Servicios</a>
+
+                    </div>
+                  </div>
+                </div>
+              </nav>   
         </header>
 
-        <!-- Botones de Navegación -->
-        <div class="d-flex justify-content-center gap-3 mb-4">
-            <button class="btn btn-primary" onclick="location.href='#inicio'">Inicio</button>
-            <button class="btn btn-primary" onclick="location.href='#sobre-mi'">Sobre mí</button>
-            <button class="btn btn-primary" onclick="location.href='#habilidades'">Habilidades</button>
-            <button class="btn btn-primary" onclick="location.href='#experiencia'">Experiencia</button>
-            <button class="btn btn-primary" onclick="location.href='#servicios'">Servicios</button>
-        </div>
-
+<main>
         <!-- Perfil -->
-        <div id="inicio" class="profile text-center mb-5">
-            <img src="Foto.png" alt="Profile Photo" class="rounded-circle img-thumbnail mb-3" style="width: 200px;">
-            <div class="details">
-                <p><strong>Nombre:</strong> Alexander Duque Londoño</p>
-                <p><strong>Edad:</strong> 31 años</p>
-                <p><strong>Email:</strong> alex52698695@gmail.com</p>
-                <p><strong>Teléfono:</strong> 3246356452</p>
+        <div class="profile d-flex align-items-center mb-5" style="display: flex; flex-wrap: nowrap;">
+            <div class="text-center w-100">
+                <img src="Foto.png" alt="Profile Photo" class="rounded-circle img-thumbnail" style="width: 200px; flex-shrink: 0;">
+                <p class="mt-3">
+                   <strong>Alexander Duque Londoño</strong>
+                  </p>
+            </div>
+            
+            <div class="details ms-4" style="flex-grow: 1;">
+                <p> Soy una persona con un enfoque claro en la resolución de problemas y la 
+                    búsqueda constante de mejoras. Mi mentalidad lógica me permite analizar situaciones de manera objetiva,
+                    identificar oportunidades y tomar decisiones estratégicas que generen resultados.
+    
+                    Disfruto enfrentar desafíos, ya que creo que cada reto es una oportunidad para aprender,
+                    crecer y demostrar mi capacidad de adaptación. Mi pasión por el desarrollo personal y profesional
+                    me impulsa a dar siempre lo mejor de mí, con dedicación y un espíritu positivo.
+    
+                    Estoy listo para colaborar en proyectos significativos, aportar valor y superar las expectativas 
+                    en cualquier ámbito en el que me desempeñe.</p>
             </div>
         </div>
 
-        <!-- Sobre mí -->
-        <section id="sobre-mi" class="mb-4">
-            <h2 class="fw-bold">Sobre mí</h2>
-            <p>Soy una persona trabajadora y comprometida, con un enfoque claro en la resolución de problemas y la 
-                búsqueda constante de mejoras. Mi mentalidad lógica me permite analizar situaciones de manera objetiva,
-                identificar oportunidades y tomar decisiones estratégicas que generen resultados.
-
-                Disfruto enfrentar desafíos, ya que creo que cada reto es una oportunidad para aprender,
-                crecer y demostrar mi capacidad de adaptación. Mi pasión por el desarrollo personal y profesional
-                me impulsa a dar siempre lo mejor de mí, con dedicación y un espíritu positivo.
-
-                Estoy listo para colaborar en proyectos significativos, aportar valor y superar las expectativas 
-                en cualquier ámbito en el que me desempeñe.</p>
-        </section>
-
         <!-- Habilidades -->
         <section id="habilidades" class="mb-4">
-            <h2 class="fw-bold">Habilidades</h2>
+            <h1 class="fw-bold">Habilidades</h1>
         <p><strong>Programación y desarrollo:</strong><br>
-                &bull;Comprensión sólida de la lógica de programación y resolución de problemas.<br>
-            <strong> Básicos de Python, incluyendo:</strong><br>
-                &bull;Uso de variables, estructuras de control y funciones.<br>
-                &bull;Manejo de librerías básicas.<br>
-            <strong>Desarrollo front-end con Angular:</strong><br>
-                &bull;Creación de componentes.<br>
-                &bull;Manejo de rutas y servicios.<br> 
+                 Comprensión sólida de la lógica de programación y resolución de problemas;<strong>Python:</strong> Uso de variables,
+                 estructuras de control y funciones,Manejo de librerías;<strong>Angular:</strong>Creación de componentes,Manejo de rutas 
+                 y servicios;<strong>JavaScript:</strong>creación de funciones interactivas;<strong>Html y CSS:</strong>
+                 Diseñar páginas web estáticas con títulos, párrafos, imágenes, listas y enlaces,Crear formularios para 
+                 recolectar información como nombre, correo, o comentarios,Usar tablas para organizar datos de manera sencilla,
+                 Personalizar Contenido Usando Etiquetas,Insertar enlaces a hojas de estilo CSS,Usar head para agregar 
+                 metadatos, títulos y favicons.
+                 <br> 
             <strong>Bases de datos:</strong><br>
-                <strong>PostgreSQL</strong><br>
-                     &bull;Creación de tablas, índices y relaciones.<br>
-                     &bull;Optimización básica de consultas.<br>
-                <strong>MySQL</strong><br>   
-                    &bull;Diseño y normalización de bases de datos.<br>
-                    &bull;Creación y gestión de procedimientos almacenados.<br>
-                    &bull;Uso de transacciones para garantizar integridad de datos.<br>
-            <strong>Herramientas y prácticas de desarrollo:</strong><br>
-                    &bull;Familiaridad con herramientas de desarrollo colaborativo como GitHub.<br>
-                    &bull;Depuración de código y resolución de errores en entornos de desarrollo.<br>
+                <strong>PostgreSQL:</strong>Creación de tablas, índices y relaciones,Optimización básica de consultas;
+                <strong>MySQL:</strong>Diseño y normalización de bases de datos,Creación y gestión de procedimientos 
+                almacenados,Uso de transacciones para garantizar integridad de datos.<br>
+            <strong>Herramientas:</strong><br>
+                    Visual Studio Code,Workbench,Github;Depuración de código y resolución de errores.<br>
+                   
             <strong>Habilidades complementarias:</strong><br>
-                    &bull;Capacidad para aprender nuevas tecnologías rápidamente.<br>
-                    &bull;Resolución de problemas complejos mediante pensamiento lógico.<br>
-                    &bull;Habilidad para trabajar en equipo y colaborar en proyectos de desarrollo ágil.<br>
-                    &bull;Compromiso con la mejora continua y la búsqueda de nuevas soluciones.<br>
-            <strong>Creación de páginas web:</strong><br>
-                <strong> Crear Estructuras Básicas de Páginas Web</strong><br>
-                    &bull;Diseñar páginas web estáticas con títulos, párrafos, imágenes, listas y enlaces.<br>
-                    &bull;Crear formularios simples para recolectar información como nombre, correo, o comentarios.<br>
-                    &bull;Usar tablas para organizar datos de manera sencilla.<br>
-                <strong>Personalizar Contenido Usando Etiquetas</strong><br>
-                    &bull;Usar etiquetas básicas.<br>
-                    &bull;Incorporar etiquetas semánticas.<br>
-                <strong> Crear Plantillas para Sitios Web</strong><br>
-                    &bull;Configurar la base de un sitio web con una estructura de carpeta organizada.<br>
-                    &bull;Usar head para agregar metadatos, títulos y favicons.<br>
-                    &bull;Insertar enlaces a hojas de estilo CSS o scripts de JavaScript.<br>
-
-                    
-                </p>
-                    
-
-         
-        </section>
+                    Capacidad para aprender nuevas tecnologías rápidamente,Habilidad para trabajar en equipo y 
+                    colaborar en proyectos de desarrollo ágil,Compromiso con la mejora continua y la búsqueda de 
+                    nuevas soluciones.
+        </p>
+    </section>
 
         <!-- Experiencia -->
         <section id="experiencia" class="mb-4">
             <h2 class="fw-bold">Experiencia</h2>
-            <p>Tecnólogo en Mantenimiento electrónico e instrumental industrial<br>
-               SENA
+            <p><strong> SENA</strong><br>
+                &bull; Tecnólogo en Mantenimiento electrónico e instrumental industrial<br>
+                &bull; Curso especial en aplicación de soldadura Smaw en aceros al carbono<br>
+                &bull; Complementaria virtual en construcción de bases de datos con MySQL<br>
+             </p>
+            <p><strong>CENSA</strong><br>
+                &bull; Seminario Ética y valores<br>
+                <p>
+             <p><strong>Otros</strong><br>
+                &bull; Página web interactiva, con formulario y funcional,Clickpalm<br>
             </p>
-            <p>Curso especial en aplicación de soldadura Smaw en aceros al carbono<br>
-                SENA
-             </p>
-             <p>Curso especial básico en barismo<br>
-                SENA
-             </p>
-             <p>Complementaria virtual en construcción de bases de datos con MySQL<br>
-                SENA
-             </p>
-             <p>Seminario Ética y valores<br>
-                CENSA
-             </p>
-             <p>Seminario Medio ambiente <br>
-                CENSA
-             </p>
-             <p>Página web interactiva, con formulario y funcional<br>
-                Clickpalm
-             </p>
 
         </section>
 
         <!-- Servicios -->
         <section id="servicios" class="mb-4">
-            <h2 class="fw-bold">Servicios</h2>
-            <p><strong>Desarrollo Web Básico:</strong>Crear páginas web estáticas (HTML, CSS, y un poco de JavaScript),
-                Diseñar landing pages simples,Integrar formularios de contacto.
+            <h3 class="fw-bold">Servicios</h3>
+            <p><strong>Desarrollo Web y de Aplicaciones:</strong>Crear páginas web estáticas (HTML, CSS, y un poco de JavaScript),
+                Diseñar landing pages simples,Integrar formularios de contacto;Crear aplicaciones con interfaces 
+                gráficas usando herramientas como Python en Visual Studio Code.
             </p>
-            <p><strong>Automatización y Scripts:</strong>Crear scripts sencillos para automatizar tareas repetitivas 
+            <p><strong>Automatización y Scripts:</strong>Crear scripts para automatizar tareas repetitivas 
                 (Python, Bash),Automatizar procesos.
             </p>
-            <p><strong>Soporte Técnico:</strong>Ayudar a otros a solucionar errores básicos de código,Configurar 
+            <p><strong>Soporte Técnico:</strong>Ayudar a otros a solucionar errores de código,Configurar 
                 entornos de desarrollo (por ejemplo, instalar Visual Studio Code, Node.js o Python),Dar soporte 
-                en la instalación y configuración de software.
+                en la instalación y configuración de software;Mejorar la estructura de código (mejorar identación, 
+                agregar comentarios, etc.).
             </p>
-            <p><strong>Desarrollo de Aplicaciones Simples:</strong>Crear pequeñas aplicaciones con interfaces 
-                gráficas usando herramientas como Python o HTML/CSS; usando Visual Studio Code.
-            </p>
-            <p><strong>Manejo de Bases de Datos:</strong>Diseñar bases de datos simples en MySQL o PostgreSQL,
-                Realizar consultas básicas para filtrar, ordenar o actualizar datos,
+            <p><strong>Manejo de Bases de Datos:</strong>Diseñar bases de datos en MySQL o PostgreSQL,
+                Realizar consultas para filtrar, ordenar o actualizar datos,
                 Configurar bases de datos locales o en la nube.
-            </p>
-            <p><strong>Edición y Corrección de Código:</strong>Revisar código para detectar errores básicos,
-                Mejorar la estructura de código (mejorar identación, agregar comentarios, etc.),
-                Refactorizar scripts simples.
             </p>
 
         </section>
+    </main>
 
         <!-- Footer -->
-        <footer class="text-center mt-5 text-muted">
-            <p>© 2025, Alexander Duque Londoño</p>
-            <button class="btn btn-primary" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">
-              Volver al inicio
-            </button>
+        <footer class="bg-info text-dark py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-4 text-center text-md-start">
+                        <img src="logo.png" alt="Logo" height="90">
+                    </div>
+                    <div class="col-md-8 text-center text-md-end">
+                        <p class="mb-1">Teléfono: 3246356452</p>
+                        <p class="mb-1">Email: alex52698695@gmail.com</p>
+
+                    </div>
+                </div>
+            </div>
         </footer>
-    </div>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
